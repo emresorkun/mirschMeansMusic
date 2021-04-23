@@ -1,0 +1,206 @@
+body,
+html,
+.container
+ {
+    padding: auto; 
+    margin: auto;
+}
+
+.container {
+    /* background-color: rgb(0,0,0); */
+  }
+
+
+.col-sm
+
+ {
+    color: rgb(131,98,65); 
+    font-family: "Helvetica";
+    font-weight: 85;
+    font-size: 20px; 
+    display: flex;
+    justify-content: center;  
+    
+    
+  }
+
+  .logo
+
+  {  
+    padding: 0; 
+    margin: 0;
+  }
+
+  #Layer_1
+  {
+
+    width: 600px;
+
+  }
+.col
+ {
+    color: rgb(131,98,65); 
+    font-family: "Helvetica";
+    font-weight: 85;
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;  
+    
+    
+  }
+
+.left
+{
+   
+  height: 800px;
+  background-size: cover;
+}
+
+.right
+{  
+  height: 800px;
+  background-size:cover;
+}
+  
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  top: 80px;
+}
+
+main h1 {
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.supporting {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.supporting .col {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+#NG20Left,
+#NG20Right
+{
+  height: 879px;
+}
+
+ 
+#NG20Left {
+  transform: translateX(-5px);
+  
+}
+#NG20Right {
+  transform: translateX(5px);
+  
+}
+
+#NG20Left:hover {
+  transform: translateX(5px);
+  
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
